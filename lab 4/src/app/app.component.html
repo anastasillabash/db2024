@@ -1,0 +1,30 @@
+<app-read-members [data]="members"/>
+
+<div class="centre">
+  <div ngbDropdown class="d-inline-block">
+    <button type="button" class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>
+      Обрати операцію
+    </button>
+    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+      <button (click)="switchMode('create')" [disabled]="isMode('create')" ngbDropdownItem>Створити</button>
+      <button (click)="switchMode('update')" [disabled]="isMode('update')" ngbDropdownItem>Редагувати</button>
+      <button (click)="switchMode('delete')" [disabled]="isMode('delete')" ngbDropdownItem>Видалити</button>
+    </div>
+  </div>
+</div>
+
+<div [ngSwitch]="modeType">
+  <div *ngSwitchCase="'create'">
+    <app-create-member (onSubmit)="reload()"/>
+  </div>
+  <div *ngSwitchCase="'update'">
+    <app-edit-members (onSubmit)="reload()"/>
+  </div>
+  <div *ngSwitchCase="'delete'">
+    <app-delete-members (onDelete)="reload()"/>
+  </div>
+  <div *ngSwitchDefault></div>
+</div>
+
+
+<router-outlet/>

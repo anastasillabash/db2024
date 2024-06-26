@@ -1,0 +1,25 @@
+<div class="container">
+    <h2>Edit Member</h2>
+  
+    <form (ngSubmit)="editMember()">
+      <label for="id">Id:</label>
+      <input type="text" id="id" required [(ngModel)]="saved_id" />
+  
+      <label for="name">Name:</label>
+      <input type="text" id="name" required [(ngModel)]="newMember.name" />
+  
+      <label for="surname">Surname:</label>
+      <input type="text" id="surname" required [(ngModel)]="newMember.surname" />
+
+      <label for="sex">Sex:</label>
+      <input type="text" id="sex" required [(ngModel)]="newMember.sex" />
+  
+      <label for="age">Age:</label>
+      <input type="number" id="age" required [(ngModel)]="newMember.age" />
+
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" required [(ngModel)]="newMember.phone" />
+  
+      <button type="submit">Edit</button>
+    </form>
+  </div>

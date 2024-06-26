@@ -1,0 +1,15 @@
+insert into "Trainer" (id, name, surname, phone) values (1, 'Clevey', 'Cartledge', '766 122 6708');
+insert into "Trainer" (id, name, surname, phone) values (2, 'Kacey', 'Lassells', '671 848 2521');
+insert into "Trainer" (id, name, surname, phone) values (3, 'Rozanne', 'Kenvin', '706 992 6801');
+insert into "Trainer" (id, name, surname, phone) values (4, 'Mandi', 'Fairbairn', '175 300 0412');
+insert into "Trainer" (id, name, surname, phone) values (5, 'Heida', 'MacMaykin', '167 454 4980');
+insert into "Trainer" (id, name, surname, phone) values (6, 'Renie', 'Gillan', '782 856 5636');
+insert into "Trainer" (id, name, surname, phone) values (7, 'Cesare', 'Baruch', '322 733 4583');
+insert into "Trainer" (id, name, surname, phone) values (8, 'Batholomew', 'Rable', '984 135 5084');
+insert into "Trainer" (id, name, surname, phone) values (9, 'Dermot', 'Ahrenius', '728 212 5902');
+insert into "Trainer" (id, name, surname, phone) values (10, 'Aura', 'Pandya', '104 699 4662');
+insert into "Trainer" (id, name, surname, phone) values (11, 'Sianna', 'Crosham', '387 415 1250');
+insert into "Trainer" (id, name, surname, phone) values (12, 'Melvin', 'Scorton', '417 132 6954');
+insert into "Trainer" (id, name, surname, phone) values (13, 'Anabal', 'Rigts', '934 782 6036');
+insert into "Trainer" (id, name, surname, phone) values (14, 'Morty', 'Maffia', '943 702 5537');
+insert into "Trainer" (id, name, surname, phone) values (15, 'Nicolette', 'Fifoot', '203 894 9962');

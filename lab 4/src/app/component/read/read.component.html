@@ -1,0 +1,26 @@
+<div class="container">
+    <h2>Members Table</h2>
+  
+    <table>
+      <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Sex</th>
+        <th>Age</th>
+        <th>Phone</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let members of data">
+        <td>{{ members.id }}</td>
+        <td>{{ members.name }}</td>
+        <td>{{ members.surname }}</td>
+        <td>{{ members.sex }}</td>
+        <td>{{ members.age }}</td>
+        <td>{{ members.phone }}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
